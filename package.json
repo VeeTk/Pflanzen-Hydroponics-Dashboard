@@ -9,6 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vite-plugin-inspect": "^0.7.38"
+  },
+  "dependencies": {
+    "scss": "^0.2.4"
   }
 }
