@@ -22,10 +22,11 @@ body {
 }
 
 .sideBar {
-  width: 100px;
+  width: 140px;
   background: #fff;
 
   &__content {
+    // position: fixed;
     height: 100%;
     display: flex;
     overflow: hidden;
@@ -37,24 +38,53 @@ body {
 
 .content {
   &__logo {
-    margin-top: 30px;
+    margin-top: 40px;
     cursor: pointer;
   }
 
   &__buttons {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 45px;
   }
 
   &__exit {
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 40px 0px;
     cursor: pointer;
+    &:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 0.07s linear 0s;
+    }
   }
 }
 .buttons {
   &__section {
+    height: 74px;
+    width: 74px;
+    border-radius: 50%;
+    background-color: #ffffff;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      background: rgba(117, 223, 109, 0.22);
+    }
+    &:active {
+      background: rgba(104, 147, 0, 1);
+      svg {
+        stroke: #fff;
+      }
+    }
+  }
+}
+.buttons__section-active {
+  background: rgba(104, 147, 0, 1);
+  &:hover {
+    background: rgba(104, 147, 0, 1);
+  }
+  svg {
+    stroke: #fff;
   }
 }
 
@@ -62,7 +92,7 @@ body {
 
 .main {
   display: flex;
-  padding: 17px 35px 35px 35px;
+  padding: 33px 52px 33px 52px;
   width: 100%;
 }
 
@@ -77,19 +107,32 @@ body {
   }
 
   &__title {
+    font-weight: 500;
     font-size: 30px;
   }
 
   &__right {
     display: flex;
+    gap: 17px;
   }
 
   &__avatar {
+    cursor: pointer;
+
     img {
-      height: 35px;
+      height: 42px;
+      &:hover {
+        transform: scale(1.1, 1.1);
+        transition: all 0.07s linear 0s;
+      }
     }
   }
 
   &__notifications {
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 0.07s linear 0s;
+    }
   }
 }

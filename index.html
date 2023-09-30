@@ -7,8 +7,9 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0 , user-scalable=0">
   <link rel="stylesheet" href="css/style.css">
-  <script type="module" src="/main.js" defer></script>
-  <title>Vite App</title>
+  <script type="text/javascript" src="main.js" defer></script>
+  <script type="text/javascript" src="js/sidebar.js" defer></script>
+  <title>Fflanzen Hydroponics</title>
 </head>
 
 <body>
@@ -19,10 +20,37 @@
           <img src="img/sidebar/logo.svg" alt="">
         </div>
         <div class="content__buttons">
-          <div class="buttons__section"><img src="img/sidebar/leaf.svg" alt=""></div>
-          <div class="buttons__section"><img src="img/sidebar/area-chart.svg" alt=""></div>
-          <div class="buttons__section"><img src="img/sidebar/calendar-range.svg" alt=""></div>
-          <div class="buttons__section"><img src="img/sidebar/shopping-cart.svg" alt=""></div>
+          <div class="buttons__section"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+              viewBox="0 0 24 24" fill="none" stroke="#9e9e9e" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="lucide lucide-leaf">
+              <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" />
+              <path class="sidebar__svg" d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+            </svg></div>
+          <div class="buttons__section"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+              viewBox="0 0 24 24" fill="none" stroke="#9e9e9e" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="lucide lucide-area-chart">
+              <path d="M3 3v18h18" />
+              <path d="M7 12v5h12V8l-5 5-4-4Z" />
+            </svg></div>
+          <div class="buttons__section"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+              viewBox="0 0 24 24" fill="none" stroke="#9e9e9e" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="lucide lucide-calendar-range">
+              <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+              <line x1="16" x2="16" y1="2" y2="6" />
+              <line x1="8" x2="8" y1="2" y2="6" />
+              <line x1="3" x2="21" y1="10" y2="10" />
+              <path d="M17 14h-6" />
+              <path d="M13 18H7" />
+              <path d="M7 14h.01" />
+              <path d="M17 18h.01" />
+            </svg></div>
+          <div class="buttons__section"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+              viewBox="0 0 24 24" fill="none" stroke="#9e9e9e" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="lucide lucide-shopping-cart">
+              <circle cx="8" cy="21" r="1" />
+              <circle cx="19" cy="21" r="1" />
+              <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+            </svg></div>
         </div>
         <div class="content__exit">
           <img src="img/sidebar/exit.svg" alt="">
@@ -38,7 +66,6 @@
           <div class="header__avatar"><img src="img/header/avatar.png" alt=""></div>
           <div class="header__notifications"><img src="img/header/bell.svg" alt=""></div>
         </div>
-
       </header>
     </main>
   </div>
