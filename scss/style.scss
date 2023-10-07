@@ -20,6 +20,13 @@ body {
   display: flex;
   height: 100%;
 }
+.content-box {
+  padding: 33px 52px 33px 52px;
+  width: 100%;
+}
+.hover {
+  display: none;
+}
 
 .sideBar {
   width: 140px;
@@ -92,8 +99,6 @@ body {
 
 .main {
   display: flex;
-  padding: 33px 52px 33px 52px;
-  width: 100%;
 }
 
 //=====================header=========================================
@@ -103,6 +108,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0px 0px 30px 0px;
   &__left {
   }
 
@@ -134,5 +140,269 @@ body {
       transform: scale(1.1, 1.1);
       transition: all 0.07s linear 0s;
     }
+  }
+}
+
+// -----------------main---------------------------------------------------
+
+.main {
+  &__left-content {
+    flex: 1 1 66.66%;
+  }
+}
+.left-content {
+  &__top-ban {
+    background: #b7cc8a;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    margin: 0px 0px 20px 0px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 12px;
+    text-align: left;
+  }
+
+  &__middle-ban {
+    width: 100%;
+    height: 300px;
+    background: url("/img/main-block/main-img.jpg") center / cover no-repeat;
+    color: #ffffff;
+    margin: 0px 0px 20px 0px;
+    border-radius: 12px;
+    padding: 30px 30px 30px 30px;
+  }
+
+  &__recomendation {
+    margin: 0px 0px 20px 0px;
+  }
+
+  &__tips {
+  }
+}
+.top-ban {
+  color: #ffffff;
+  &__left {
+    display: flex;
+  }
+
+  &__right {
+    img {
+      height: 40px;
+    }
+  }
+}
+.left {
+  &__days {
+    max-width: 57px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    border-right: solid 2px #ffffff;
+    padding: 0px 20px 0px 0px;
+  }
+
+  &__titles {
+    margin: 0px 0px 0px 30px;
+  }
+}
+.titles {
+  &__title {
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    line-height: 170%;
+  }
+
+  &__subtitle {
+    font-size: 12px;
+    letter-spacing: 0.1px;
+  }
+}
+.middle-ban {
+  color: #ffffff;
+  &__content {
+    height: 100%;
+    display: flex;
+    // flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: end;
+    background: #b7cc8a;
+    height: 57px;
+    width: 150px;
+    border-radius: 30px;
+    gap: 10px;
+  }
+
+  &__title {
+    font-size: 38px;
+    font-weight: 400;
+    max-width: 500px;
+    line-height: 120%;
+  }
+}
+.button {
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    color: #4f7907;
+    margin: 0px 0px 0px 5px;
+    font-size: 15px;
+  }
+
+  &__arrow {
+  }
+}
+.recomendation {
+  &__content {
+    padding: 15px 20px 40px 20px;
+    background: #fff;
+    border-radius: 12px;
+  }
+
+  &__top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    img {
+      height: 30px;
+    }
+  }
+
+  &__boxes {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 22px;
+    margin: 15px 0px 0px 0px;
+  }
+}
+.top {
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+
+  &__left-fire {
+    img {
+      height: 27px;
+      margin: 0px 0px 10px 0px;
+    }
+  }
+
+  &__left-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 0px 0px 15px;
+  }
+
+  &__right {
+    color: #767676;
+  }
+}
+.boxes {
+  &__box-1 {
+    padding: 12px 12px 12px 12px;
+    border-radius: 12px;
+    height: 170px;
+    flex: 1 1 33.33%;
+    color: #000000;
+    background: url("/img/main-block/recomendation-1.jpg") center / cover no-repeat;
+    box-shadow: 0px 0px 9px 2px #8c8c8c;
+  }
+
+  &__box-2 {
+    padding: 12px 12px 12px 12px;
+    border-radius: 12px;
+    height: 170px;
+    flex: 1 1 33.33%;
+    color: #000000;
+    background: url("/img/main-block/recomendation-2.jpg") center / cover no-repeat;
+    box-shadow: 0px 0px 9px 2px #8c8c8c;
+  }
+
+  &__box-3 {
+    padding: 12px 12px 12px 12px;
+    border-radius: 12px;
+    height: 170px;
+    color: #000000;
+    flex: 1 1 33.33%;
+    background: url("/img/main-block/recomendation-3.jpg") center / cover no-repeat;
+    box-shadow: 0px 0px 9px 2px #8c8c8c;
+  }
+}
+.box-1 {
+  &__heading {
+  }
+
+  &__subheading {
+  }
+}
+.box-2 {
+  &__heading {
+  }
+
+  &__subheading {
+  }
+}
+.box-3 {
+  &__heading {
+  }
+
+  &__subheading {
+  }
+}
+.tips {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__left {
+    display: flex;
+  }
+
+  &__hummers {
+    img {
+      height: 30px;
+    }
+  }
+
+  &__heading {
+  }
+
+  &__right {
+    color: #767676;
+  }
+
+  &__list {
+  }
+}
+.list {
+  &__item {
+    display: flex;
+    img {
+      height: 60px;
+    }
+  }
+}
+.item {
+  &__text {
+  }
+}
+// ----------------------RIGHT CONTENT--------------------
+.main {
+  &__right-content {
+    flex: 1 1 33.33%;
   }
 }
