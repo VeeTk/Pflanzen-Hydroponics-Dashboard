@@ -20,18 +20,21 @@ body {
   display: flex;
   height: 100%;
 }
+//=====================Main piece=========================================
 .content-box {
-  padding: 33px 52px 33px 52px;
+  padding: 25px 50px 25px 50px;
   width: 100%;
+  margin: 0px 0px 0px 100px;
 }
 .hover {
   display: none;
 }
 
 .sideBar {
-  width: 140px;
+  width: 110px;
   background: #fff;
-
+  height: 100%;
+  position: fixed;
   &__content {
     // position: fixed;
     height: 100%;
@@ -179,6 +182,9 @@ body {
   }
 
   &__tips {
+    padding: 25px 25px 25px 25px;
+    background: #ffffff;
+    border-radius: 12px;
   }
 }
 .top-ban {
@@ -235,9 +241,12 @@ body {
     align-self: end;
     background: #b7cc8a;
     height: 57px;
-    width: 150px;
+    min-width: 150px;
     border-radius: 30px;
     gap: 10px;
+    &:hover {
+      background: #c5dc93;
+    }
   }
 
   &__title {
@@ -308,6 +317,7 @@ body {
 
   &__right {
     color: #767676;
+    cursor: pointer;
   }
 }
 .boxes {
@@ -318,7 +328,10 @@ body {
     flex: 1 1 33.33%;
     color: #000000;
     background: url("/img/main-block/recomendation-1.jpg") center / cover no-repeat;
-    box-shadow: 0px 0px 9px 2px #8c8c8c;
+    box-shadow: 0px 0px 7px 2px #8c8c8c;
+    &:hover {
+      box-shadow: 0px 0px 3px 2px #8c8c8c;
+    }
   }
 
   &__box-2 {
@@ -328,7 +341,10 @@ body {
     flex: 1 1 33.33%;
     color: #000000;
     background: url("/img/main-block/recomendation-2.jpg") center / cover no-repeat;
-    box-shadow: 0px 0px 9px 2px #8c8c8c;
+    box-shadow: 0px 0px 7px 2px #8c8c8c;
+    &:hover {
+      box-shadow: 0px 0px 3px 2px #8c8c8c;
+    }
   }
 
   &__box-3 {
@@ -338,61 +354,98 @@ body {
     color: #000000;
     flex: 1 1 33.33%;
     background: url("/img/main-block/recomendation-3.jpg") center / cover no-repeat;
-    box-shadow: 0px 0px 9px 2px #8c8c8c;
+    box-shadow: 0px 0px 7px 2px #8c8c8c;
+    &:hover {
+      box-shadow: 0px 0px 3px 2px #8c8c8c;
+    }
   }
 }
 .box-1 {
   &__heading {
+    font-weight: 600;
+    letter-spacing: 0.3px;
   }
 
   &__subheading {
+    color: #767676;
+    font-weight: 500;
+    font-size: 13px;
   }
 }
 .box-2 {
   &__heading {
+    font-weight: 600;
+    letter-spacing: 0.3px;
   }
 
   &__subheading {
+    color: #767676;
+    font-weight: 500;
+    font-size: 13px;
   }
 }
 .box-3 {
   &__heading {
+    font-weight: 600;
+    letter-spacing: 0.3px;
   }
 
   &__subheading {
+    color: #767676;
+    font-weight: 500;
+    font-size: 13px;
   }
 }
 .tips {
   &__top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 12px 0px;
   }
 
   &__left {
     display: flex;
+    align-items: center;
+    gap: 15px;
   }
 
   &__hummers {
     img {
-      height: 30px;
+      height: 20px;
+      margin: 0px 0px 10px 0px;
     }
   }
 
   &__heading {
+    font-size: 20px;
+    font-weight: 500;
   }
 
   &__right {
     color: #767676;
+    cursor: pointer;
   }
 
   &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
   }
 }
 .list {
   &__item {
     display: flex;
+    align-items: center;
+    color: #767676;
+    line-height: 135%;
+    font-size: 14px;
+    gap: 18px;
     img {
-      height: 60px;
+      height: 90px;
+      width: 90px;
+      border-radius: 20px;
+      object-fit: cover;
     }
   }
 }
