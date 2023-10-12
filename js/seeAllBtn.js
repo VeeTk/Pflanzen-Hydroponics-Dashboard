@@ -7,7 +7,7 @@ const seeAllActive = document.querySelector(".recomendation__boxes");
 
 seeAllBtn.addEventListener("click", () => {
   if (seeAllActive.style.flexWrap === "wrap") {
-    seeAllActive.style.flexWrap = "no-wrap";
+    seeAllActive.style.flexWrap = "nowrap";
   } else {
     seeAllActive.style.flexWrap = "wrap";
   }

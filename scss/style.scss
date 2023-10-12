@@ -537,3 +537,156 @@ body {
     flex: 1 1 33.33%;
   }
 }
+.right-content {
+  &__summary {
+  }
+
+  &__schedule {
+  }
+
+  &__maintenance {
+  }
+}
+.summary {
+  &__title {
+  }
+
+  &__clock {
+  }
+
+  &__text {
+  }
+
+  &__active-img {
+  }
+}
+.active-img {
+  &__titles {
+  }
+
+  &__titles-title {
+  }
+
+  &__titles-subtitle {
+  }
+
+  &__button {
+  }
+}
+.button {
+  &__text {
+  }
+
+  &__arrow {
+  }
+}
+.schedule {
+  &__top {
+  }
+
+  &__watering {
+  }
+}
+.top {
+  &__left {
+  }
+
+  &__right {
+  }
+}
+.watering {
+  &__top {
+  }
+
+  &__line {
+  }
+}
+.right {
+  &__week {
+  }
+
+  &__arrow {
+  }
+}
+.line {
+  &__day {
+  }
+}
+.day {
+  &__dayofweek {
+  }
+
+  &__event {
+  }
+
+  &__daynumber {
+  }
+}
+.maintenance {
+  &__top {
+  }
+
+  &__temperature {
+  }
+}
+.temperature {
+  &__title {
+  }
+
+  &__chart {
+  }
+
+  &__daytime {
+  }
+
+  &__night {
+  }
+
+  &__nutrients {
+  }
+}
+.chart {
+  &__numbers {
+  }
+
+  &__subtitles {
+  }
+}
+.subtitles {
+  &__day {
+  }
+
+  &__night {
+  }
+
+  &__solution {
+  }
+}
+.daytime {
+  &__orange {
+  }
+
+  &__temper {
+  }
+}
+.temper {
+  &__icon {
+  }
+
+  &__numbers {
+  }
+}
+.night {
+  &__blue {
+  }
+
+  &__temper {
+  }
+}
+.nutrients {
+  &__yellow {
+  }
+
+  &__temper {
+  }
+}

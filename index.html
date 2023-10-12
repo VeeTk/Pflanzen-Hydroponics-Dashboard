@@ -10,6 +10,7 @@
   <script type="text/javascript" src="main.js" defer></script>
   <script type="text/javascript" src="js/sidebar.js" defer></script>
   <script type="text/javascript" src="js/seeAllBtn.js" defer></script>
+  <script type="text/javascript" src="js/date.js" defer></script>
   <title>Fflanzen Hydroponics</title>
 </head>
 
@@ -100,7 +101,7 @@
                 </div>
                 <div class="top__right">see all</div>
               </div>
-              <ul class="recomendation__boxes">
+              <ul class="recomendation__boxes" style="flex-wrap: nowrap">
                 <li class="boxes__box-1">
                   <div class="box-1__heading">Lettuce</div>
                   <div class="box-1__subheading">(Lactuca Sativa)</div>
@@ -177,7 +178,143 @@
           </div>
         </div>
         <div class="main__right-content">
-          <p>right content</p>
+          <div class="right-content__summary">
+            <div class="summary__title">
+              <div class="summary__clock"></div>
+              <div class="summary__text"></div>
+            </div>
+            <div class="summary__active-img">
+              <div class="active-img__titles">
+                <div class="active-img__titles-title">Basil Plants</div>
+                <div class="active-img__titles-subtitle">(Ocimum Basiliucum)</div>
+              </div>
+              <div class="active-img__button">
+                <div class="button__text">See Details</div>
+                <div class="button__arrow">
+                  <img src="/img/main-block/arrow.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-content__schedule">
+            <div class="schedule__top">
+              <div class="top__left">Schedule</div>
+              <div class="top__right">see more</div>
+            </div>
+            <div class="schedule__watering">
+              <div class="watering__top">
+                <div class="top__left"></div>
+                <div class="top__right">
+                  <div class="right__week"></div>
+                  <div class="right__arrow"></div>
+                </div>
+              </div>
+              <ul class="watering__line">
+                <li class="line__day" id="sun">
+                  <div class="day__dayofweek">Sun</div>
+                  <div class="day__event">
+                    <img src="#" alt="">
+                  </div>
+                  <div class="day__daynumber" id="1"></div>
+                </li>
+                <li class="line__day" id="mon">
+                  <div class="day__dayofweek">Mon</div>
+                  <div class="day__event">
+                    <img src="#" alt="">
+                  </div>
+                  <div class="day__daynumber" id="1"></div>
+                </li>
+                <li class="line__day" id="tue">
+                  <div class="day__dayofweek">Tue</div>
+                  <div class="day__event">
+                    <img src="#" alt="">
+                  </div>
+                  <div class="day__daynumber" id="1"></div>
+                </li>
+                <li class="line__day" id="wed">
+                  <div class="day__dayofweek">Wed</div>
+                  <div class="day__event">
+                    <img src="#" alt="">
+                  </div>
+                  <div class="day__daynumber" id="1"></div>
+                </li>
+                <li class="line__day" id="thu">
+                  <div class="day__dayofweek">Thu</div>
+                  <div class="day__event">
+                    <img src="#" alt="">
+                  </div>
+                  <div class="day__daynumber" id="1"></div>
+                </li>
+                <li class="line__day" id="fri">
+                  <div class="day__dayofweek">Fri</div>
+                  <div class="day__event">
+                    <img src="#" alt="">
+                  </div>
+                  <div class="day__daynumber" id="1"></div>
+                </li>
+                <li class="line__day" id="sat">
+                  <div class="day__dayofweek">Sat</div>
+                  <div class="day__event">
+                    <img src="#" alt="">
+                  </div>
+                  <div class="day__daynumber" id="1"></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="right-content__maintenance">
+            <div class="maintenance__top">
+              <div class="top__left">Maintenance</div>
+              <div class="top__right">see more</div>
+            </div>
+            <div class="maintenance__temperature">
+              <div class="temperature__title">Temperature</div>
+              <div class="temperature__chart">
+                <ul class="chart__numbers">
+                  <li>28 .........................................</li>
+                  <li>26 .........................................</li>
+                  <li>24 .........................................</li>
+                  <li>22 .........................................</li>
+                  <li>20 .........................................</li>
+                  <li>18 .........................................</li>
+                  <li>15 .........................................</li>
+                  <li>0 .........................................</li>
+                </ul>
+                <div class="chart__subtitles">
+                  <div class="subtitles__day">Daytime Temp</div>
+                  <div class="subtitles__night">Night Temp</div>
+                  <div class="subtitles__solution">Nutrient Solution</div>
+                </div>
+              </div>
+              <div class="temperature__daytime">
+                <div class="daytime__orange"></div>
+                <div class="daytime__temper">
+                  <div class="temper__icon">
+                    <img src="#" alt="  ">
+                  </div>
+                  <div class="temper__numbers">21-27°C</div>
+                </div>
+              </div>
+              <div class="temperature__night">
+                <div class="night__blue"></div>
+                <div class="night__temper">
+                  <div class="temper__icon">
+                    <img src="#" alt="  ">
+                  </div>
+                  <div class="temper__numbers">15-21°С</div>
+                </div>
+              </div>
+              <div class="temperature__nutrients">
+                <div class="nutrients__yellow"></div>
+                <div class="nutrients__temper">
+                  <div class="temper__icon">
+                    <img src="#" alt="  ">
+                  </div>
+                  <div class="temper__numbers">18-24°С</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
