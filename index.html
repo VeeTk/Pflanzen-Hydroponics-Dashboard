@@ -12,6 +12,7 @@
   <script type="text/javascript" src="js/seeAllBtn.js" defer></script>
   <script type="text/javascript" src="js/date.js" defer></script>
   <script type="text/javascript" src="js/watering.js" defer></script>
+  <script type="text/javascript" src="js/active-img.js" defer></script>
   <title>Fflanzen Hydroponics</title>
 </head>
 
@@ -103,29 +104,32 @@
                 <div class="top__right">see all</div>
               </div>
               <ul class="recomendation__boxes" style="flex-wrap: nowrap">
-                <li class="boxes__box-1">
-                  <div class="box-1__heading">Lettuce</div>
-                  <div class="box-1__subheading">(Lactuca Sativa)</div>
+                <li class="boxes__box-1 box-style" style="background-image: url(/img/main-block/recomendation-1.jpg)">
+                  <div class="box-1__heading heading">Lettuce</div>
+                  <div class="box-1__subheading subheading">(Lactuca Sativa)</div>
                 </li>
-                <li class="boxes__box-2">
-                  <div class="box-2__heading">Coriander</div>
-                  <div class="box-2__subheading">(Cilantro)</div>
+                <li class="boxes__box-2 box-style" style="background-image: url(/img/main-block/recomendation-2.jpg)">
+                  <div class="box-2__heading heading">Coriander</div>
+                  <div class="box-2__subheading subheading">(Cilantro)</div>
                 </li>
-                <li class="boxes__box-3">
-                  <div class="box-3__heading">Spinach</div>
-                  <div class="box-3__subheading">(Amaraunthus)</div>
+                <li class="boxes__box-3 box-style" style="background-image: url(/img/main-block/recomendation-3.jpg)">
+                  <div class="box-3__heading heading">Spinach</div>
+                  <div class="box-3__subheading subheading">(Amaraunthus)</div>
                 </li>
-                <li class="boxes__box-4 hover">
-                  <div class="box-4__heading">Melissa</div>
-                  <div class="box-4__subheading">(Zemtiry)</div>
+                <li class="boxes__box-4 box-style hover"
+                  style="background-image: url(/img/main-block/recomendation-4.jpg)">
+                  <div class="box-4__heading heading">Melissa</div>
+                  <div class="box-4__subheading subheading">(Zemtiry)</div>
                 </li>
-                <li class="boxes__box-5 hover">
-                  <div class="box-5__heading">Mint</div>
-                  <div class="box-5__subheading">(Zelyanis)</div>
+                <li class="boxes__box-5 box-style hover"
+                  style="background-image: url(/img/main-block/recomendation-5.jpg)">
+                  <div class="box-5__heading heading">Mint</div>
+                  <div class="box-5__subheading subheading">(Zelyanis)</div>
                 </li>
-                <li class="boxes__box-6 hover">
-                  <div class="box-6__heading">Onion</div>
-                  <div class="box-6__subheading">(Lepit)</div>
+                <li class="boxes__box-6 box-style hover"
+                  style="background-image: url(/img/main-block/recomendation-6.jpg)">
+                  <div class="box-6__heading heading">Onion</div>
+                  <div class="box-6__subheading subheading">(Lepit)</div>
                 </li>
               </ul>
             </div>
@@ -316,7 +320,7 @@
                   <div class="temper__icon">
                     <img src="/img/right-block/summer.png" alt="  ">
                   </div>
-                  <div class="temper__numbers">21-27°C</div>
+                  <div class="temper__numbers" id="day-temper">21-27°C</div>
                 </div>
               </div>
               <div class="temperature__night">
@@ -325,7 +329,7 @@
                   <div class="temper__icon">
                     <img src="/img/right-block/moon.png" alt="  ">
                   </div>
-                  <div class="temper__numbers">15-21°С</div>
+                  <div class="temper__numbers" id="night-temper">15-21°С</div>
                 </div>
               </div>
               <div class="temperature__nutrients">

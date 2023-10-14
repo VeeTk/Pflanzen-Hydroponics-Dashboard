@@ -324,160 +324,50 @@ body {
     cursor: pointer;
   }
 }
+.box-style {
+  max-width: 245px;
+  padding: 12px 12px 12px 12px;
+  border-radius: 12px;
+  height: 170px;
+  flex: 1 1 33.33%;
+  color: #000000;
+  &:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 2px 2px 2px 1px #a0a0a0;
+  }
+}
 .boxes {
   &__box-1 {
-    max-width: 245px;
-    padding: 12px 12px 12px 12px;
-    border-radius: 12px;
-    height: 170px;
-    flex: 1 1 33.33%;
-    color: #000000;
     background: url("/img/main-block/recomendation-1.jpg") center / cover no-repeat;
-    box-shadow: 0px 0px 7px 2px #8c8c8c;
-    &:hover {
-      box-shadow: 0px 0px 3px 2px #8c8c8c;
-    }
   }
 
   &__box-2 {
-    max-width: 245px;
-    padding: 12px 12px 12px 12px;
-    border-radius: 12px;
-    height: 170px;
-    flex: 1 1 33.33%;
-    color: #000000;
     background: url("/img/main-block/recomendation-2.jpg") center / cover no-repeat;
-    box-shadow: 0px 0px 7px 2px #8c8c8c;
-    &:hover {
-      box-shadow: 0px 0px 3px 2px #8c8c8c;
-    }
   }
 
   &__box-3 {
-    max-width: 245px;
-    padding: 12px 12px 12px 12px;
-    border-radius: 12px;
-    height: 170px;
-    color: #000000;
-    flex: 1 1 33.33%;
     background: url("/img/main-block/recomendation-3.jpg") center / cover no-repeat;
-    box-shadow: 0px 0px 7px 2px #8c8c8c;
-    &:hover {
-      box-shadow: 0px 0px 3px 2px #8c8c8c;
-    }
   }
   &__box-4 {
-    max-width: 245px;
-    padding: 12px 12px 12px 12px;
-    border-radius: 12px;
-    height: 170px;
-    color: #000000;
-    flex: 1 1 33.33%;
     background: url("/img/main-block/recomendation-4.jpg") center / cover no-repeat;
-    box-shadow: 0px 0px 7px 2px #8c8c8c;
-    &:hover {
-      box-shadow: 0px 0px 3px 2px #8c8c8c;
-    }
   }
   &__box-5 {
-    max-width: 245px;
-    padding: 12px 12px 12px 12px;
-    border-radius: 12px;
-    height: 170px;
-    color: #000000;
-    flex: 1 1 33.33%;
     background: url("/img/main-block/recomendation-5.jpg") center / cover no-repeat;
-    box-shadow: 0px 0px 7px 2px #8c8c8c;
-    &:hover {
-      box-shadow: 0px 0px 3px 2px #8c8c8c;
-    }
   }
   &__box-6 {
-    max-width: 245px;
-    padding: 12px 12px 12px 12px;
-    border-radius: 12px;
-    height: 170px;
-    color: #000000;
-    flex: 1 1 33.33%;
     background: url("/img/main-block/recomendation-6.jpg") center / cover no-repeat;
-    box-shadow: 0px 0px 7px 2px #8c8c8c;
-    &:hover {
-      box-shadow: 0px 0px 3px 2px #8c8c8c;
-    }
   }
 }
-.box-1 {
-  &__heading {
-    font-weight: 600;
-    letter-spacing: 0.3px;
-  }
+.heading {
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+.subheading {
+  color: #767676;
+  font-weight: 500;
+  font-size: 13px;
+}
 
-  &__subheading {
-    color: #767676;
-    font-weight: 500;
-    font-size: 13px;
-  }
-}
-.box-2 {
-  &__heading {
-    font-weight: 600;
-    letter-spacing: 0.3px;
-  }
-
-  &__subheading {
-    color: #767676;
-    font-weight: 500;
-    font-size: 13px;
-  }
-}
-.box-3 {
-  &__heading {
-    font-weight: 600;
-    letter-spacing: 0.3px;
-  }
-
-  &__subheading {
-    color: #767676;
-    font-weight: 500;
-    font-size: 13px;
-  }
-}
-.box-4 {
-  &__heading {
-    font-weight: 600;
-    letter-spacing: 0.3px;
-  }
-
-  &__subheading {
-    color: #767676;
-    font-weight: 500;
-    font-size: 13px;
-  }
-}
-.box-5 {
-  &__heading {
-    font-weight: 600;
-    letter-spacing: 0.3px;
-  }
-
-  &__subheading {
-    color: #767676;
-    font-weight: 500;
-    font-size: 13px;
-  }
-}
-.box-6 {
-  &__heading {
-    font-weight: 600;
-    letter-spacing: 0.3px;
-  }
-
-  &__subheading {
-    color: #767676;
-    font-weight: 500;
-    font-size: 13px;
-  }
-}
 .tips {
   &__top {
     display: flex;
@@ -584,9 +474,8 @@ body {
     height: 200px;
     color: #000000;
     background: url("/img/main-block/recomendation-4.jpg") center / cover no-repeat;
-    box-shadow: 0px 0px 7px 2px #8c8c8c;
     &:hover {
-      box-shadow: 0px 0px 3px 2px #8c8c8c;
+      box-shadow: 0px 0px 3px 2px #bcbcbc;
     }
   }
 }
@@ -720,7 +609,8 @@ body {
     }
   }
 }
-.day-active { //======================active==========================
+.day-active {
+  //======================active==========================
   background: #e1ecc8;
 }
 

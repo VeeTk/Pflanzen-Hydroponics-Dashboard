@@ -365,140 +365,44 @@ body {
   cursor: pointer;
 }
 
-.boxes__box-1 {
+.box-style {
   max-width: 245px;
   padding: 12px 12px 12px 12px;
   border-radius: 12px;
   height: 170px;
   flex: 1 1 33.33%;
   color: #000000;
-  background: url("/img/main-block/recomendation-1.jpg") center/cover no-repeat;
-  box-shadow: 0px 0px 7px 2px #8c8c8c;
 }
-.boxes__box-1:hover {
-  box-shadow: 0px 0px 3px 2px #8c8c8c;
+.box-style:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 2px 2px 2px 1px #a0a0a0;
+}
+
+.boxes__box-1 {
+  background: url("/img/main-block/recomendation-1.jpg") center/cover no-repeat;
 }
 .boxes__box-2 {
-  max-width: 245px;
-  padding: 12px 12px 12px 12px;
-  border-radius: 12px;
-  height: 170px;
-  flex: 1 1 33.33%;
-  color: #000000;
   background: url("/img/main-block/recomendation-2.jpg") center/cover no-repeat;
-  box-shadow: 0px 0px 7px 2px #8c8c8c;
-}
-.boxes__box-2:hover {
-  box-shadow: 0px 0px 3px 2px #8c8c8c;
 }
 .boxes__box-3 {
-  max-width: 245px;
-  padding: 12px 12px 12px 12px;
-  border-radius: 12px;
-  height: 170px;
-  color: #000000;
-  flex: 1 1 33.33%;
   background: url("/img/main-block/recomendation-3.jpg") center/cover no-repeat;
-  box-shadow: 0px 0px 7px 2px #8c8c8c;
-}
-.boxes__box-3:hover {
-  box-shadow: 0px 0px 3px 2px #8c8c8c;
 }
 .boxes__box-4 {
-  max-width: 245px;
-  padding: 12px 12px 12px 12px;
-  border-radius: 12px;
-  height: 170px;
-  color: #000000;
-  flex: 1 1 33.33%;
   background: url("/img/main-block/recomendation-4.jpg") center/cover no-repeat;
-  box-shadow: 0px 0px 7px 2px #8c8c8c;
-}
-.boxes__box-4:hover {
-  box-shadow: 0px 0px 3px 2px #8c8c8c;
 }
 .boxes__box-5 {
-  max-width: 245px;
-  padding: 12px 12px 12px 12px;
-  border-radius: 12px;
-  height: 170px;
-  color: #000000;
-  flex: 1 1 33.33%;
   background: url("/img/main-block/recomendation-5.jpg") center/cover no-repeat;
-  box-shadow: 0px 0px 7px 2px #8c8c8c;
-}
-.boxes__box-5:hover {
-  box-shadow: 0px 0px 3px 2px #8c8c8c;
 }
 .boxes__box-6 {
-  max-width: 245px;
-  padding: 12px 12px 12px 12px;
-  border-radius: 12px;
-  height: 170px;
-  color: #000000;
-  flex: 1 1 33.33%;
   background: url("/img/main-block/recomendation-6.jpg") center/cover no-repeat;
-  box-shadow: 0px 0px 7px 2px #8c8c8c;
-}
-.boxes__box-6:hover {
-  box-shadow: 0px 0px 3px 2px #8c8c8c;
 }
 
-.box-1__heading {
+.heading {
   font-weight: 600;
   letter-spacing: 0.3px;
 }
-.box-1__subheading {
-  color: #767676;
-  font-weight: 500;
-  font-size: 13px;
-}
 
-.box-2__heading {
-  font-weight: 600;
-  letter-spacing: 0.3px;
-}
-.box-2__subheading {
-  color: #767676;
-  font-weight: 500;
-  font-size: 13px;
-}
-
-.box-3__heading {
-  font-weight: 600;
-  letter-spacing: 0.3px;
-}
-.box-3__subheading {
-  color: #767676;
-  font-weight: 500;
-  font-size: 13px;
-}
-
-.box-4__heading {
-  font-weight: 600;
-  letter-spacing: 0.3px;
-}
-.box-4__subheading {
-  color: #767676;
-  font-weight: 500;
-  font-size: 13px;
-}
-
-.box-5__heading {
-  font-weight: 600;
-  letter-spacing: 0.3px;
-}
-.box-5__subheading {
-  color: #767676;
-  font-weight: 500;
-  font-size: 13px;
-}
-
-.box-6__heading {
-  font-weight: 600;
-  letter-spacing: 0.3px;
-}
-.box-6__subheading {
+.subheading {
   color: #767676;
   font-weight: 500;
   font-size: 13px;
@@ -578,10 +482,9 @@ body {
   height: 200px;
   color: #000000;
   background: url("/img/main-block/recomendation-4.jpg") center/cover no-repeat;
-  box-shadow: 0px 0px 7px 2px #8c8c8c;
 }
 .summary__active-img:hover {
-  box-shadow: 0px 0px 3px 2px #8c8c8c;
+  box-shadow: 0px 0px 3px 2px #bcbcbc;
 }
 
 .active-img__titles-title {
