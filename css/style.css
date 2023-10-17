@@ -366,16 +366,25 @@ body {
 }
 
 .box-style {
-  max-width: 245px;
+  max-width: 100%;
   padding: 12px 12px 12px 12px;
   border-radius: 12px;
-  height: 170px;
   flex: 1 1 33.33%;
   color: #000000;
 }
 .box-style:hover {
   transform: translate(-2px, -2px);
   box-shadow: 2px 2px 2px 1px #a0a0a0;
+}
+@media (min-width: 1022px) {
+  .box-style {
+    height : calc(50px + 120 * ((100vw - 320px) / 1120));
+  }
+}
+@media (max-width: 1022px) {
+  .box-style {
+    height: 119px;
+  }
 }
 
 .boxes__box-1 {
