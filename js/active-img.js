@@ -10,19 +10,7 @@ const subTitle = document.querySelectorAll(".subheading");
 recomendationBtn.forEach((btn, index) => {
   btn.addEventListener("click", () => {
     activeImg.style.backgroundImage = btn.style.backgroundImage;
-    // activationTitle();
-
-    title.forEach((title, index) => {
-      console.log(index);
-    });
-    // console.log(btn.parentElement[index].innerText);
-
-    // activationTitle();
-    // activeTitle.innerText = title.innerText;
+    activeTitle.innerText = title[index].innerText;
+    activeSubTitle.innerText = subTitle[index].innerText;
   });
 });
-function activationTitle() {
-  title.forEach((title, index) => {
-    console.log(title.innerText);
-  });
-}
