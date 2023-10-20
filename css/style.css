@@ -792,6 +792,12 @@ body {
   color: #000000;
   background: url("/img/main-block/recomendation-4.webp") center/cover no-repeat;
 }
+@media (max-width: 426px) {
+  .summary__active-img {
+    max-width: 400px;
+    min-width: 150px;
+  }
+}
 
 .active-img__titles-title {
   font-size: 16px;
