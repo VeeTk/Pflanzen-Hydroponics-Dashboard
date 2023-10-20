@@ -281,7 +281,7 @@ body {
   &__middle-ban {
     width: 100%;
     height: 300px;
-    background: url("/img/main-block/main-img.webp") center / cover no-repeat;
+    background: url("../img/main-block/main-img.webp") center / cover no-repeat;
     color: #ffffff;
     margin: 0px 0px 20px 0px;
     border-radius: 12px;
@@ -549,24 +549,24 @@ body {
 }
 .boxes {
   &__box-1 {
-    background: url("/img/main-block/recomendation-1.webp") center / cover no-repeat;
+    background: url("../img/main-block/recomendation-1.webp") center / cover no-repeat;
   }
 
   &__box-2 {
-    background: url("/img/main-block/recomendation-2.webp") center / cover no-repeat;
+    background: url("../img/main-block/recomendation-2.webp") center / cover no-repeat;
   }
 
   &__box-3 {
-    background: url("/img/main-block/recomendation-3.webp") center / cover no-repeat;
+    background: url("../img/main-block/recomendation-3.webp") center / cover no-repeat;
   }
   &__box-4 {
-    background: url("/img/main-block/recomendation-4.webp") center / cover no-repeat;
+    background: url("../img/main-block/recomendation-4.webp") center / cover no-repeat;
   }
   &__box-5 {
-    background: url("/img/main-block/recomendation-5.webp") center / cover no-repeat;
+    background: url("../img/main-block/recomendation-5.webp") center / cover no-repeat;
   }
   &__box-6 {
-    background: url("/img/main-block/recomendation-6.webp") center / cover no-repeat;
+    background: url("../img/main-block/recomendation-6.webp") center / cover no-repeat;
   }
 }
 .heading {
@@ -686,7 +686,7 @@ body {
     border-radius: 12px;
     height: 200px;
     color: #000000;
-    background: url("/img/main-block/recomendation-4.webp") center / cover no-repeat;
+    background: url("../img/main-block/recomendation-4.webp") center / cover no-repeat;
     @media (max-width: 426px) {
       max-width: 400px;
       min-width: 150px;
