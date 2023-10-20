@@ -281,7 +281,7 @@ body {
   &__middle-ban {
     width: 100%;
     height: 300px;
-    background: url("/img/main-block/main-img.jpg") center / cover no-repeat;
+    background: url("/img/main-block/main-img.webp") center / cover no-repeat;
     color: #ffffff;
     margin: 0px 0px 20px 0px;
     border-radius: 12px;
@@ -450,9 +450,6 @@ body {
       font-size: 10px;
     }
   }
-
-  &__arrow {
-  }
 }
 .recomendation {
   &__content {
@@ -552,24 +549,24 @@ body {
 }
 .boxes {
   &__box-1 {
-    background: url("/img/main-block/recomendation-1.jpg") center / cover no-repeat;
+    background: url("/img/main-block/recomendation-1.webp") center / cover no-repeat;
   }
 
   &__box-2 {
-    background: url("/img/main-block/recomendation-2.jpg") center / cover no-repeat;
+    background: url("/img/main-block/recomendation-2.webp") center / cover no-repeat;
   }
 
   &__box-3 {
-    background: url("/img/main-block/recomendation-3.jpg") center / cover no-repeat;
+    background: url("/img/main-block/recomendation-3.webp") center / cover no-repeat;
   }
   &__box-4 {
-    background: url("/img/main-block/recomendation-4.jpg") center / cover no-repeat;
+    background: url("/img/main-block/recomendation-4.webp") center / cover no-repeat;
   }
   &__box-5 {
-    background: url("/img/main-block/recomendation-5.jpg") center / cover no-repeat;
+    background: url("/img/main-block/recomendation-5.webp") center / cover no-repeat;
   }
   &__box-6 {
-    background: url("/img/main-block/recomendation-6.jpg") center / cover no-repeat;
+    background: url("/img/main-block/recomendation-6.webp") center / cover no-repeat;
   }
 }
 .heading {
@@ -669,16 +666,7 @@ body {
     }
   }
 }
-.right-content {
-  &__summary {
-  }
 
-  &__schedule {
-  }
-
-  &__maintenance {
-  }
-}
 .summary {
   &__title {
     font-size: 20px;
@@ -689,28 +677,19 @@ body {
     gap: 12px;
   }
 
-  &__clock {
-  }
-
-  &__text {
-  }
-
   &__active-img {
     height: 100%;
     display: flex;
     justify-content: space-between;
-    max-width: 400px;
+    min-width: 400px;
     padding: 12px 12px 12px 12px;
     border-radius: 12px;
     height: 200px;
     color: #000000;
-    background: url("/img/main-block/recomendation-4.jpg") center / cover no-repeat;
+    background: url("/img/main-block/recomendation-4.webp") center / cover no-repeat;
   }
 }
 .active-img {
-  &__titles {
-  }
-
   &__titles-title {
     font-size: 16px;
     font-weight: 600;
@@ -759,9 +738,6 @@ body {
     @media (max-width: 321px) {
       font-size: 12px;
     }
-  }
-
-  &__arrow {
   }
 }
 .schedule {
@@ -851,8 +827,8 @@ body {
     }
   }
 }
+//======================active==========================
 .day-active {
-  //======================active==========================
   background: #e1ecc8;
 }
 
@@ -915,7 +891,6 @@ body {
   &__chart {
     img {
       width: 350px;
-      // height: 100%;
       overflow: hidden;
     }
   }
@@ -957,16 +932,6 @@ body {
     justify-content: space-between;
     margin: 0px 0px 0px 20px;
     font-size: 12px;
-  }
-}
-.subtitles {
-  &__day {
-  }
-
-  &__night {
-  }
-
-  &__solution {
   }
 }
 .daytime {
